@@ -1,0 +1,65 @@
+<!doctype html>
+<form>
+<label>Enter Name </label>
+<input type="text" required autofocus 
+placeholder="Enter your name"><p>
+<label>Which country? </label>
+<input id="country_name" 
+       name="country_name" 
+       type="text" 
+	   list="country" />            
+<datalist id="country">               
+<option value="Afghanistan">               
+<option value="Albania">               
+<option value="Algeria">               
+<option value="Andorra">               
+<option value="Angola">               
+<option value="Bahamas">               
+<option value="Bahrain">               
+<option value="Bangladesh">               
+<option value="Barbados">               
+<option value="Cambodia"> 
+<option value="Cameroon">               
+<option value="Canada">               
+<option value="Chile">               
+<option value="China">               
+<option value="Colombia">             
+</datalist><p>
+
+<label>What to search? </label>
+<input type="search" placeholder="search"><p>
+<label>Date of Birth : </label>
+<input type="date"><p>
+<label>Your Age : </label>
+<input type="number"
+       min="0"
+       max="50"
+	   step="1"
+       value="6"><p>
+
+<label>Choose a Color : </label>
+<input id="color" name="color" type="color" placeholder="e.g. #bbbbbb" /><p>
+<label>How Many Hours Do You Surf The Web Each Week? </label>
+<input type="range" min="1" max="20" value="0"><p>
+<label>Email : </label>
+<input type="email"><p>
+<label>Website : </label>
+<input type="URL" name="website" placeholder="enter your website address"><p>
+
+<label>Phone : </label>
+<input type="tel" placeholder="Format : XXX-XX-XXXX" pattern="[2-9][0-9]{2}-[0-9]{3}-[0-9]{4}"
+title="North American format: XXX-XXX-XXXX"></input>
+<label> Select a color</label>
+<input type="text" list="mylist">
+<datalist id="mylist">
+<option label="Red" value="Red">
+<option label="Blue" value="Blue">
+<option label="Green" value="Green">
+</datalist>
+<br>
+<input type="submit" ><p>
+<section contenteditable="true">
+<h1> Edit this content </h1>
+<p> you can select, edit and create your own content in this space </p>
+</section>
+</form>
